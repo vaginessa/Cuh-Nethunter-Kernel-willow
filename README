@@ -1,18 +1,14 @@
-Linux kernel
-============
+# Ginkgo Nethunter Kernel
 
-This file was moved to Documentation/admin-guide/README.rst
+Based on the [Cuh-Kernel](https://github.com/tejas101k/Cuh-Kernel) for Android 14 support and applied with patches for Nethunter support. Optimization patches or similar won't be added.
 
-Please notice that there are several guides for kernel developers and users.
-These guides can be rendered in a number of formats, like HTML and PDF.
+*Everything should work, I didn't tested it completely.*
 
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.
+## Build
+Have **Ubuntu 20.04**. *(You can use [distrobox](https://wiki.archlinux.org/title/Distrobox))* 
 
-There are various text files in the Documentation/ subdirectory,
-several of them using the Restructured Text markup notation.
-See Documentation/00-INDEX for a list of what is contained in each file.
+ 1. Run `setup_environment.sh` for downloading the compiler etc.
+ 2. Run `build.sh` for building the kernel.
+ 3. Run `produce_flashable_kernel.sh`  for creating a AnyKernel zip which you can flash in TWRP, OrangeFox etc.
 
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+Run `make clean && make mrproper` for cleaning the environment.
