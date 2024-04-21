@@ -1,6 +1,6 @@
 # Ginkgo Nethunter Kernel
 
-#### `WILLOW (REDMI NOTE 8T) IS UNSUPPORTED!`
+#### `WILLOW (REDMI NOTE 8T) IS UNTESTED!`
 
 Based on the [Cuh-Kernel](https://github.com/tejas101k/Cuh-Kernel) for Android 14 support and applied with patches for Nethunter support. Optimization patches or similar won't be added.
 
